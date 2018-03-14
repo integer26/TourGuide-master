@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="fragH">250dp</dimen>
+    <dimen name="fragH">300dp</dimen>
     <dimen name="freagMarginTop">50dp</dimen>
     <dimen name="ImgFragMarginB">8dp</dimen>
 </resources>
