@@ -2,24 +2,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.tourguide.City1Frag"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide.City1Frag">
 
     <ListView
         android:id="@+id/ListFrag1"
         android:layout_width="match_parent"
         android:layout_height="@dimen/fragH"
-        android:layout_marginTop="@dimen/freagMarginTop"
-        />
+        android:layout_marginTop="@dimen/freagMarginTop" />
 
     <ImageView
         android:id="@+id/city1Imm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        android:src="@drawable/matera_02"
         android:layout_gravity="center_vertical|center_horizontal|bottom"
         android:layout_margin="@dimen/ImgFragMarginB"
-        />
+        android:scaleType="centerCrop"
+        android:src="@drawable/matera_02" />
 
 </FrameLayout>

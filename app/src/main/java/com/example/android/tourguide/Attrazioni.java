@@ -8,7 +8,7 @@ public class Attrazioni {
 
     private String mName, mAddress, mPhone, mTipo;
 
-    public Attrazioni(String Name, String Address, String Phone, String Tipo){
+    public Attrazioni(String Name, String Address, String Phone, String Tipo) {
 
         mName = Name;
         mAddress = Address;

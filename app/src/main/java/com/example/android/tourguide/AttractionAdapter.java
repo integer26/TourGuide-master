@@ -40,8 +40,7 @@ public class AttractionAdapter extends ArrayAdapter<Attrazioni> {
         numberTextView.setText ( currentAndroidFlavor.getmPhone () );
 
         TextView tipoTextView = listItemView.findViewById ( R.id.Tipology );
-        tipoTextView.setText (currentAndroidFlavor.getmTipo () );
-
+        tipoTextView.setText ( currentAndroidFlavor.getmTipo () );
 
         return listItemView;
     }
