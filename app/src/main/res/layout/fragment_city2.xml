@@ -7,7 +7,7 @@
     <ListView
     android:id="@+id/ListFrag2"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/freagMarginTop"
+    android:layout_height="@dimen/fragH"
     android:layout_marginTop="@dimen/freagMarginTop"/>
 
     <ImageView
@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@drawable/ciao"
+        android:src="@drawable/taranto"
         android:layout_gravity="center_vertical|center_horizontal|bottom"
         android:layout_margin="@dimen/ImgFragMarginB"
         />
